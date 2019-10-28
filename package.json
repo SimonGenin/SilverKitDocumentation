@@ -1,0 +1,24 @@
+{
+  "name": "SilverKitDocumentation",
+  "version": "1.0.0",
+  "description": "SilverKit is a framework to help make an application that include senior users. It is currently in active development as a research project at the University of Namur, Belgium.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonGenin/SilverKitDocumentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonGenin/SilverKitDocumentation/issues"
+  },
+  "homepage": "https://github.com/SimonGenin/SilverKitDocumentation#readme",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
+}
