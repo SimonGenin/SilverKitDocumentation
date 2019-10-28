@@ -10,9 +10,9 @@ SilverKit is a framework to help make an application that include senior users. 
 
 In more detais, once SilverKit is used in your code, all kind of interaction metrics are gathered. From them, a system tries to detect if something seems wrong, such as repeated miss clicks near a button. If there is indeed an anomaly infered, actions are taken to update the interface reactively. In the case of the miss clicked button, it might be an increase size of the its font and/or its shape.
 
-SilverKit can collect a quite bunch of metrics and take many different actions on the interface. Everything is configurable, so that the developper stays in full control of his application.
+SilverKit can collect quite a bunch of metrics and take many different actions on the interface. Everything is configurable, so that the developper stays in full control of his application.
 
-SilverKit comes also with more complex interaction scheme such as task completion analysis. Of course, those more advanced features required more investment from developers and aren't just pluggable in the code like some other features are.
+SilverKit comes also with more complex interaction schemes such as task completion analysis. Of course, those more advanced features required more investment from developers and aren't just pluggable attributes in the code like some other features are.
 
 # Example
 
@@ -77,12 +77,12 @@ document.getElementById("start-task").click(event => {
   exampleTask.start();
 });
 
-document.getElementById("start-task").click(event => {
-  exampleTask.start();
-});
+document.getElementById("stop-task").click(event => {
+  exampleTask.stop();
 
-// launch analysis and get a promise to act on your view
-exampleTask.analyse().then(response => {
-  // do something
+  // launch analysis and get a promise to act on your view
+  exampleTask.analyse().then(response => {
+    // do something
+  });
 });
 ```
