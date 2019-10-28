@@ -8,6 +8,12 @@ SilverKit is a framework to help make an application that include senior users. 
     </a>
 </div>
 
+In more detais, once SilverKit is used in your code, all kind of interaction metrics are gathered. From them, a system tries to detect if something seems wrong, such as repeated miss clicks near a button. If there is indeed an anomaly infered, actions are taken to update the interface reactively. In the case of the miss clicked button, it might be an increase size of the its font and/or its shape.
+
+SilverKit can collect a quite bunch of metrics and take many different actions on the interface. Everything is configurable, so that the developper stays in full control of his application.
+
+SilverKit comes also with more complex interaction scheme such as task completion analysis. Of course, those more advanced features required more investment from developers and aren't just pluggable in the code like some other features are.
+
 # Example
 
 SilverKit provides a clear API and a set of convenient html tag data attributes. With very few modification, elements get more accessible to people with deficiences.
