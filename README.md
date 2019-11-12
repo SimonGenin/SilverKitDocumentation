@@ -14,6 +14,10 @@ SilverKit can collect quite a bunch of metrics and take many different actions o
 
 SilverKit comes also with more complex interaction schemes such as task completion analysis. Of course, those more advanced features required more investment from developers and aren't just pluggable attributes in the code like some other features are.
 
+# RoadMap Graph
+
+<iframe src='https://www.xmind.net/embed/yVStVV/' width='750' height='540' frameborder='0' scrolling='no' allowfullscreen="true"></iframe>
+
 # Example
 
 SilverKit provides a clear API and a set of convenient html tag data attributes. With very few modification, elements get more accessible to people with deficiences.
